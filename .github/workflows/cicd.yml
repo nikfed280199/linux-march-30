@@ -17,7 +17,7 @@ jobs:
           key: ${{ secrets.KEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
           script: |
-            cd /home/yc-user/app/backend
+            cd /home/yc-user/app/backend/linux-march-30
             git  pull
             cd /home/yc-user/app
             docker compose down
